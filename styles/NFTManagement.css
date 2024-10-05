@@ -1,0 +1,45 @@
+/* NFTManagement.css */
+.nft-management {
+    padding: 20px;
+  }
+  
+  .nft-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nft-card {
+    background: linear-gradient(135deg, #ff9800, #ffcc80);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nft-actions {
+    margin-top: 10px;
+  }
+  
+  .details-button, .delete-button, .transfer-button {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .details-button {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .transfer-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  

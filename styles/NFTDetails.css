@@ -1,0 +1,49 @@
+/* NFTDetails.css */
+.nft-details {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .status-public {
+    color: green;
+  }
+  
+  .status-private {
+    color: red;
+  }
+  
+  .nft-actions {
+    margin-top: 20px;
+  }
+  
+  .transfer-button, .delete-button, .share-button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .transfer-button {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .share-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
